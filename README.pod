@@ -39,9 +39,8 @@ changing the MAX_FONT_COUNT parameter in the source code). This version supports
 
 =item B<-H> I<entercmd:leavecmd>
 
-Enable the execution of commands on enter/leave window mouse events (hover). Two commands can be given, separated by ":". The first one
-will be execute when the mouse will enter the lemonbar window, when the second one will be executed when the mouse will leave the window.
-To execute a command only on leave events, give "null" as enter command.
+Enable the execution of commands on mouse enter/leave window events (hover). Two commands can be given, separated by ":". The first one
+will be execute when the mouse will enter the lemonbar window (set to "null" to disable it), when the second one will be executed when the mouse will leave the window.
 Examples: -H "kitty -e alsamixer &:firefox" -H zathura -H "null:myscript /tmp/myfile"
 
 =item B<-a> I<number>
