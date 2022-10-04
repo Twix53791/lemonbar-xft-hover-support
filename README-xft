@@ -1,7 +1,7 @@
 Personal fork of lemonbar-xft, with hover support
 =================================================
 This fork add the possibily to execute commands on
-enter/leave window mouse events (hover).
+mouse enter/leave window events (hover).
 It is inspired by a pull request[3] of Siers.[4]
 
 The protesilaos fork get downloaded from the Ronasimi repo on git hub.
